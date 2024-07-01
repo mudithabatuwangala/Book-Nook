@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Book_Nook
 {
-    public partial class Form1 : Form
+    public partial class Splash : Form
     {
-        public Form1()
+        public Splash()
         {
             InitializeComponent();
         }
