@@ -2,9 +2,9 @@ D:\Projects\Book-Nook\Book-Nook\bin\Debug\Book-Nook.exe.config
 D:\Projects\Book-Nook\Book-Nook\bin\Debug\Book-Nook.exe
 D:\Projects\Book-Nook\Book-Nook\bin\Debug\Book-Nook.pdb
 D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book-Nook.csproj.AssemblyReference.cache
-D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book_Nook.Form1.resources
 D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book_Nook.Properties.Resources.resources
 D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book-Nook.csproj.GenerateResource.cache
 D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book-Nook.csproj.CoreCompileInputs.cache
 D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book-Nook.exe
 D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book-Nook.pdb
+D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book_Nook.Splash.resources
