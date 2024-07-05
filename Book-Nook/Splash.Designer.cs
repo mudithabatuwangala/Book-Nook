@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
             this.splashImage = new System.Windows.Forms.PictureBox();
-            this.logo = new System.Windows.Forms.PictureBox();
+            this.applicationLogo = new System.Windows.Forms.PictureBox();
             this.copyright = new System.Windows.Forms.TextBox();
             this.splashDescription = new System.Windows.Forms.TextBox();
             this.applicationName = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.applicationSslogan = new System.Windows.Forms.TextBox();
+            this.nameLogo = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splashImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nameLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,15 +53,15 @@
             this.splashImage.TabIndex = 1;
             this.splashImage.TabStop = false;
             // 
-            // logo
+            // applicationLogo
             // 
-            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
-            this.logo.Location = new System.Drawing.Point(12, 12);
-            this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(60, 60);
-            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.logo.TabIndex = 2;
-            this.logo.TabStop = false;
+            this.applicationLogo.Image = ((System.Drawing.Image)(resources.GetObject("applicationLogo.Image")));
+            this.applicationLogo.Location = new System.Drawing.Point(12, 12);
+            this.applicationLogo.Name = "applicationLogo";
+            this.applicationLogo.Size = new System.Drawing.Size(60, 60);
+            this.applicationLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.applicationLogo.TabIndex = 2;
+            this.applicationLogo.TabStop = false;
             // 
             // copyright
             // 
@@ -98,26 +98,26 @@
             this.applicationName.TabIndex = 8;
             this.applicationName.Text = "Book Nook";
             // 
-            // textBox1
+            // applicationSslogan
             // 
-            this.textBox1.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Indigo;
-            this.textBox1.Location = new System.Drawing.Point(12, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 21);
-            this.textBox1.TabIndex = 9;
-            this.textBox1.Text = "Uncork a Universe";
+            this.applicationSslogan.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.applicationSslogan.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.applicationSslogan.ForeColor = System.Drawing.Color.Indigo;
+            this.applicationSslogan.Location = new System.Drawing.Point(12, 76);
+            this.applicationSslogan.Name = "applicationSslogan";
+            this.applicationSslogan.Size = new System.Drawing.Size(144, 21);
+            this.applicationSslogan.TabIndex = 9;
+            this.applicationSslogan.Text = "Uncork a Universe";
             // 
-            // pictureBox2
+            // nameLogo
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 369);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
+            this.nameLogo.Image = ((System.Drawing.Image)(resources.GetObject("nameLogo.Image")));
+            this.nameLogo.Location = new System.Drawing.Point(12, 369);
+            this.nameLogo.Name = "nameLogo";
+            this.nameLogo.Size = new System.Drawing.Size(20, 20);
+            this.nameLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.nameLogo.TabIndex = 10;
+            this.nameLogo.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -136,12 +136,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.ClientSize = new System.Drawing.Size(600, 400);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.nameLogo);
+            this.Controls.Add(this.applicationSslogan);
             this.Controls.Add(this.applicationName);
             this.Controls.Add(this.copyright);
             this.Controls.Add(this.splashDescription);
-            this.Controls.Add(this.logo);
+            this.Controls.Add(this.applicationLogo);
             this.Controls.Add(this.splashImage);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -149,8 +149,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.splashImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nameLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -160,12 +160,12 @@
         #endregion
 
         private System.Windows.Forms.PictureBox splashImage;
-        private System.Windows.Forms.PictureBox logo;
+        private System.Windows.Forms.PictureBox applicationLogo;
         private System.Windows.Forms.TextBox copyright;
         private System.Windows.Forms.TextBox splashDescription;
         private System.Windows.Forms.TextBox applicationName;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox applicationSslogan;
+        private System.Windows.Forms.PictureBox nameLogo;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
