@@ -38,6 +38,7 @@
             this.nameLogo = new System.Windows.Forms.PictureBox();
             this.release = new System.Windows.Forms.TextBox();
             this.loading = new System.Windows.Forms.TextBox();
+            this.loadingCount = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splashImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nameLogo)).BeginInit();
@@ -137,9 +138,20 @@
             this.loading.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
             this.loading.Location = new System.Drawing.Point(12, 218);
             this.loading.Name = "loading";
-            this.loading.Size = new System.Drawing.Size(144, 17);
+            this.loading.Size = new System.Drawing.Size(94, 17);
             this.loading.TabIndex = 12;
-            this.loading.Text = "Loading application... 100%";
+            this.loading.Text = "Loading application... ";
+            // 
+            // loadingCount
+            // 
+            this.loadingCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
+            this.loadingCount.Font = new System.Drawing.Font("Tahoma", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadingCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
+            this.loadingCount.Location = new System.Drawing.Point(101, 218);
+            this.loadingCount.Name = "loadingCount";
+            this.loadingCount.Size = new System.Drawing.Size(33, 17);
+            this.loadingCount.TabIndex = 13;
+            this.loadingCount.Text = "100%";
             // 
             // Splash
             // 
@@ -147,6 +159,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
             this.ClientSize = new System.Drawing.Size(600, 400);
+            this.Controls.Add(this.loadingCount);
             this.Controls.Add(this.loading);
             this.Controls.Add(this.release);
             this.Controls.Add(this.nameLogo);
@@ -179,6 +192,7 @@
         private System.Windows.Forms.PictureBox nameLogo;
         private System.Windows.Forms.TextBox release;
         private System.Windows.Forms.TextBox loading;
+        private System.Windows.Forms.TextBox loadingCount;
     }
 }
 
