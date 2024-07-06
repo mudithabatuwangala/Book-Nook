@@ -67,7 +67,7 @@
             // 
             this.copyright.BackColor = System.Drawing.Color.AntiqueWhite;
             this.copyright.Font = new System.Drawing.Font("Tahoma", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.copyright.ForeColor = System.Drawing.Color.Indigo;
+            this.copyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
             this.copyright.Location = new System.Drawing.Point(12, 184);
             this.copyright.Multiline = true;
             this.copyright.Name = "copyright";
@@ -79,7 +79,7 @@
             // 
             this.splashDescription.BackColor = System.Drawing.Color.AntiqueWhite;
             this.splashDescription.Font = new System.Drawing.Font("Tahoma", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.splashDescription.ForeColor = System.Drawing.Color.Indigo;
+            this.splashDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
             this.splashDescription.Location = new System.Drawing.Point(12, 238);
             this.splashDescription.Multiline = true;
             this.splashDescription.Name = "splashDescription";
@@ -91,7 +91,7 @@
             // 
             this.applicationName.BackColor = System.Drawing.Color.AntiqueWhite;
             this.applicationName.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.applicationName.ForeColor = System.Drawing.Color.Indigo;
+            this.applicationName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
             this.applicationName.Location = new System.Drawing.Point(12, 93);
             this.applicationName.Name = "applicationName";
             this.applicationName.Size = new System.Drawing.Size(144, 36);
@@ -102,7 +102,7 @@
             // 
             this.applicationSslogan.BackColor = System.Drawing.Color.AntiqueWhite;
             this.applicationSslogan.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.applicationSslogan.ForeColor = System.Drawing.Color.Indigo;
+            this.applicationSslogan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
             this.applicationSslogan.Location = new System.Drawing.Point(12, 76);
             this.applicationSslogan.Name = "applicationSslogan";
             this.applicationSslogan.Size = new System.Drawing.Size(144, 21);
