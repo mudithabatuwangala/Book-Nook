@@ -107,7 +107,7 @@
             this.applicationSslogan.Name = "applicationSslogan";
             this.applicationSslogan.Size = new System.Drawing.Size(144, 21);
             this.applicationSslogan.TabIndex = 9;
-            this.applicationSslogan.Text = "Uncork a Universe";
+            this.applicationSslogan.Text = "Unlock a Universe";
             // 
             // nameLogo
             // 
