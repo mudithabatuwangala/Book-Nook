@@ -8,3 +8,4 @@ D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book-Nook.csproj.CoreCompileInputs.cac
 D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book-Nook.exe
 D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book-Nook.pdb
 D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book_Nook.Splash.resources
+D:\Projects\Book-Nook\Book-Nook\obj\Debug\Book_Nook.Login.resources
