@@ -56,6 +56,8 @@
             // 
             // applicationLogo
             // 
+            this.applicationLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.applicationLogo.Cursor = System.Windows.Forms.Cursors.Default;
             this.applicationLogo.Image = ((System.Drawing.Image)(resources.GetObject("applicationLogo.Image")));
             this.applicationLogo.Location = new System.Drawing.Point(12, 12);
             this.applicationLogo.Name = "applicationLogo";
@@ -67,6 +69,8 @@
             // copyright
             // 
             this.copyright.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
+            this.copyright.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.copyright.Cursor = System.Windows.Forms.Cursors.Default;
             this.copyright.Font = new System.Drawing.Font("Tahoma", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.copyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
             this.copyright.Location = new System.Drawing.Point(12, 184);
@@ -79,6 +83,8 @@
             // splashDescription
             // 
             this.splashDescription.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
+            this.splashDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.splashDescription.Cursor = System.Windows.Forms.Cursors.Default;
             this.splashDescription.Font = new System.Drawing.Font("Tahoma", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.splashDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(58)))), ((int)(((byte)(53)))));
             this.splashDescription.Location = new System.Drawing.Point(12, 238);
@@ -91,22 +97,26 @@
             // applicationName
             // 
             this.applicationName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
+            this.applicationName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.applicationName.Cursor = System.Windows.Forms.Cursors.Default;
             this.applicationName.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.applicationName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
             this.applicationName.Location = new System.Drawing.Point(12, 61);
             this.applicationName.Name = "applicationName";
-            this.applicationName.Size = new System.Drawing.Size(144, 36);
+            this.applicationName.Size = new System.Drawing.Size(144, 29);
             this.applicationName.TabIndex = 8;
             this.applicationName.Text = "Book Nook";
             // 
             // applicationSslogan
             // 
             this.applicationSslogan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
+            this.applicationSslogan.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.applicationSslogan.Cursor = System.Windows.Forms.Cursors.Default;
             this.applicationSslogan.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.applicationSslogan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
-            this.applicationSslogan.Location = new System.Drawing.Point(12, 94);
+            this.applicationSslogan.Location = new System.Drawing.Point(14, 94);
             this.applicationSslogan.Name = "applicationSslogan";
-            this.applicationSslogan.Size = new System.Drawing.Size(144, 21);
+            this.applicationSslogan.Size = new System.Drawing.Size(144, 14);
             this.applicationSslogan.TabIndex = 9;
             this.applicationSslogan.Text = "Unlock a Universe";
             // 
@@ -123,33 +133,39 @@
             // release
             // 
             this.release.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
+            this.release.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.release.Cursor = System.Windows.Forms.Cursors.Default;
             this.release.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.release.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
             this.release.Location = new System.Drawing.Point(12, 167);
             this.release.Name = "release";
-            this.release.Size = new System.Drawing.Size(144, 18);
+            this.release.Size = new System.Drawing.Size(144, 11);
             this.release.TabIndex = 11;
             this.release.Text = "2024 Release";
             // 
             // loading
             // 
             this.loading.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
+            this.loading.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.loading.Cursor = System.Windows.Forms.Cursors.Default;
             this.loading.Font = new System.Drawing.Font("Tahoma", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loading.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
             this.loading.Location = new System.Drawing.Point(12, 218);
             this.loading.Name = "loading";
-            this.loading.Size = new System.Drawing.Size(94, 17);
+            this.loading.Size = new System.Drawing.Size(94, 10);
             this.loading.TabIndex = 12;
             this.loading.Text = "Loading application... ";
             // 
             // loadingCount
             // 
             this.loadingCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
+            this.loadingCount.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.loadingCount.Cursor = System.Windows.Forms.Cursors.Default;
             this.loadingCount.Font = new System.Drawing.Font("Tahoma", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadingCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
             this.loadingCount.Location = new System.Drawing.Point(101, 218);
             this.loadingCount.Name = "loadingCount";
-            this.loadingCount.Size = new System.Drawing.Size(33, 17);
+            this.loadingCount.Size = new System.Drawing.Size(33, 10);
             this.loadingCount.TabIndex = 13;
             this.loadingCount.Text = "100%";
             // 
