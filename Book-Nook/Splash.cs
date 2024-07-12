@@ -26,5 +26,19 @@ namespace Book_Nook
         {
 
         }
+
+        private void splashTimer_Tick(object sender, EventArgs e)
+        {
+            splashTimer.Enabled = true;
+            //loadingCount.Increment 
+            progressBar1.Increment(2);
+            if (progressBar1.Value == 100)
+            {
+                splashTimer.Enabled = false;
+                //Login login = new Login();
+                //login.Show();
+                this.Hide();
+            }
+        }
     }
 }

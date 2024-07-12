@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
             this.splashImage = new System.Windows.Forms.PictureBox();
             this.applicationLogo = new System.Windows.Forms.PictureBox();
@@ -39,6 +40,8 @@
             this.release = new System.Windows.Forms.TextBox();
             this.loading = new System.Windows.Forms.TextBox();
             this.loadingCount = new System.Windows.Forms.TextBox();
+            this.splashTimer = new System.Windows.Forms.Timer(this.components);
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.splashImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nameLogo)).BeginInit();
@@ -169,12 +172,26 @@
             this.loadingCount.TabIndex = 13;
             this.loadingCount.Text = "100%";
             // 
+            // splashTimer
+            // 
+            this.splashTimer.Enabled = true;
+            this.splashTimer.Tick += new System.EventHandler(this.splashTimer_Tick);
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(142, 391);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(100, 10);
+            this.progressBar1.TabIndex = 14;
+            this.progressBar1.Visible = false;
+            // 
             // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
             this.ClientSize = new System.Drawing.Size(600, 400);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.loadingCount);
             this.Controls.Add(this.loading);
             this.Controls.Add(this.release);
@@ -209,6 +226,8 @@
         private System.Windows.Forms.TextBox release;
         private System.Windows.Forms.TextBox loading;
         private System.Windows.Forms.TextBox loadingCount;
+        private System.Windows.Forms.Timer splashTimer;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
