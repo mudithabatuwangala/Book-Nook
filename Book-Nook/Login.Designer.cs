@@ -52,7 +52,7 @@
             this.applicationName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.applicationName.Cursor = System.Windows.Forms.Cursors.Default;
             this.applicationName.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.applicationName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
+            this.applicationName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(58)))), ((int)(((byte)(53)))));
             this.applicationName.Location = new System.Drawing.Point(80, 133);
             this.applicationName.Name = "applicationName";
             this.applicationName.Size = new System.Drawing.Size(217, 26);
