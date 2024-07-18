@@ -29,49 +29,63 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.applicationLogo = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.applicationName = new System.Windows.Forms.TextBox();
+            this.applicationLogo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // applicationLogo
+            // pictureBox1
             // 
-            this.applicationLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.applicationLogo.Cursor = System.Windows.Forms.Cursors.Default;
-            this.applicationLogo.Image = ((System.Drawing.Image)(resources.GetObject("applicationLogo.Image")));
-            this.applicationLogo.Location = new System.Drawing.Point(156, 68);
-            this.applicationLogo.Name = "applicationLogo";
-            this.applicationLogo.Size = new System.Drawing.Size(50, 50);
-            this.applicationLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.applicationLogo.TabIndex = 3;
-            this.applicationLogo.TabStop = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(785, 564);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // applicationName
             // 
             this.applicationName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
             this.applicationName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.applicationName.Cursor = System.Windows.Forms.Cursors.Default;
-            this.applicationName.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.applicationName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(58)))), ((int)(((byte)(53)))));
-            this.applicationName.Location = new System.Drawing.Point(80, 133);
+            this.applicationName.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.applicationName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
+            this.applicationName.Location = new System.Drawing.Point(440, 123);
             this.applicationName.Name = "applicationName";
-            this.applicationName.Size = new System.Drawing.Size(217, 26);
+            this.applicationName.Size = new System.Drawing.Size(201, 23);
             this.applicationName.TabIndex = 9;
-            this.applicationName.Text = "Log in to Book Nook";
-            this.applicationName.TextChanged += new System.EventHandler(this.applicationName_TextChanged);
+            this.applicationName.Text = "Login to Book Nook";
+            this.applicationName.TextChanged += new System.EventHandler(this.applicationName_TextChanged_1);
+            // 
+            // applicationLogo
+            // 
+            this.applicationLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.applicationLogo.Cursor = System.Windows.Forms.Cursors.Default;
+            this.applicationLogo.Image = ((System.Drawing.Image)(resources.GetObject("applicationLogo.Image")));
+            this.applicationLogo.Location = new System.Drawing.Point(440, 59);
+            this.applicationLogo.Name = "applicationLogo";
+            this.applicationLogo.Size = new System.Drawing.Size(50, 50);
+            this.applicationLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.applicationLogo.TabIndex = 10;
+            this.applicationLogo.TabStop = false;
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
-            this.ClientSize = new System.Drawing.Size(384, 561);
-            this.Controls.Add(this.applicationName);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.applicationLogo);
+            this.Controls.Add(this.applicationName);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Name = "Login";
             this.Text = "Login";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -80,7 +94,8 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox applicationLogo;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox applicationName;
+        private System.Windows.Forms.PictureBox applicationLogo;
     }
 }

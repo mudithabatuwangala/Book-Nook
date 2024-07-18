@@ -21,5 +21,10 @@ namespace Book_Nook
         {
 
         }
+
+        private void applicationName_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
