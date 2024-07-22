@@ -32,6 +32,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.loginLabel = new System.Windows.Forms.TextBox();
             this.applicationLogo = new System.Windows.Forms.PictureBox();
+            this.emailUsernameLabel = new System.Windows.Forms.Label();
+            this.passwordLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).BeginInit();
             this.SuspendLayout();
@@ -72,12 +74,36 @@
             this.applicationLogo.TabIndex = 10;
             this.applicationLogo.TabStop = false;
             // 
+            // emailUsernameLabel
+            // 
+            this.emailUsernameLabel.AutoSize = true;
+            this.emailUsernameLabel.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.emailUsernameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
+            this.emailUsernameLabel.Location = new System.Drawing.Point(438, 179);
+            this.emailUsernameLabel.Name = "emailUsernameLabel";
+            this.emailUsernameLabel.Size = new System.Drawing.Size(88, 12);
+            this.emailUsernameLabel.TabIndex = 13;
+            this.emailUsernameLabel.Text = "Email or Username";
+            // 
+            // passwordLabel
+            // 
+            this.passwordLabel.AutoSize = true;
+            this.passwordLabel.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.passwordLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
+            this.passwordLabel.Location = new System.Drawing.Point(438, 247);
+            this.passwordLabel.Name = "passwordLabel";
+            this.passwordLabel.Size = new System.Drawing.Size(48, 12);
+            this.passwordLabel.TabIndex = 14;
+            this.passwordLabel.Text = "Password";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.passwordLabel);
+            this.Controls.Add(this.emailUsernameLabel);
             this.Controls.Add(this.applicationLogo);
             this.Controls.Add(this.loginLabel);
             this.Controls.Add(this.pictureBox1);
@@ -97,5 +123,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox loginLabel;
         private System.Windows.Forms.PictureBox applicationLogo;
+        private System.Windows.Forms.Label emailUsernameLabel;
+        private System.Windows.Forms.Label passwordLabel;
     }
 }
