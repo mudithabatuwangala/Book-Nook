@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.applicationName = new System.Windows.Forms.TextBox();
+            this.loginLabel = new System.Windows.Forms.TextBox();
             this.applicationLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).BeginInit();
@@ -46,19 +46,19 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // applicationName
+            // loginLabel
             // 
-            this.applicationName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
-            this.applicationName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.applicationName.Cursor = System.Windows.Forms.Cursors.Default;
-            this.applicationName.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
-            this.applicationName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
-            this.applicationName.Location = new System.Drawing.Point(440, 123);
-            this.applicationName.Name = "applicationName";
-            this.applicationName.Size = new System.Drawing.Size(201, 23);
-            this.applicationName.TabIndex = 9;
-            this.applicationName.Text = "Login to Book Nook";
-            this.applicationName.TextChanged += new System.EventHandler(this.applicationName_TextChanged_1);
+            this.loginLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
+            this.loginLabel.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.loginLabel.Cursor = System.Windows.Forms.Cursors.Default;
+            this.loginLabel.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.loginLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(37)))), ((int)(((byte)(31)))));
+            this.loginLabel.Location = new System.Drawing.Point(440, 123);
+            this.loginLabel.Name = "loginLabel";
+            this.loginLabel.Size = new System.Drawing.Size(201, 23);
+            this.loginLabel.TabIndex = 9;
+            this.loginLabel.Text = "Login to Book Nook";
+            this.loginLabel.TextChanged += new System.EventHandler(this.applicationName_TextChanged_1);
             // 
             // applicationLogo
             // 
@@ -79,7 +79,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.applicationLogo);
-            this.Controls.Add(this.applicationName);
+            this.Controls.Add(this.loginLabel);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
@@ -95,7 +95,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox applicationName;
+        private System.Windows.Forms.TextBox loginLabel;
         private System.Windows.Forms.PictureBox applicationLogo;
     }
 }
