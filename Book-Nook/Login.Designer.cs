@@ -34,6 +34,7 @@
             this.applicationLogo = new System.Windows.Forms.PictureBox();
             this.emailUsernameLabel = new System.Windows.Forms.Label();
             this.passwordLabel = new System.Windows.Forms.Label();
+            this.forgotPasswordLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).BeginInit();
             this.SuspendLayout();
@@ -96,12 +97,24 @@
             this.passwordLabel.TabIndex = 14;
             this.passwordLabel.Text = "Password";
             // 
+            // forgotPasswordLabel
+            // 
+            this.forgotPasswordLabel.AutoSize = true;
+            this.forgotPasswordLabel.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.forgotPasswordLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
+            this.forgotPasswordLabel.Location = new System.Drawing.Point(618, 310);
+            this.forgotPasswordLabel.Name = "forgotPasswordLabel";
+            this.forgotPasswordLabel.Size = new System.Drawing.Size(112, 12);
+            this.forgotPasswordLabel.TabIndex = 15;
+            this.forgotPasswordLabel.Text = "Forgot your password?";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.forgotPasswordLabel);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.emailUsernameLabel);
             this.Controls.Add(this.applicationLogo);
@@ -125,5 +138,6 @@
         private System.Windows.Forms.PictureBox applicationLogo;
         private System.Windows.Forms.Label emailUsernameLabel;
         private System.Windows.Forms.Label passwordLabel;
+        private System.Windows.Forms.Label forgotPasswordLabel;
     }
 }
