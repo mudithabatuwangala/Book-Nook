@@ -1,4 +1,6 @@
-﻿namespace Book_Nook
+﻿using System.Windows.Forms;
+
+namespace Book_Nook
 {
     partial class Login
     {
@@ -29,25 +31,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.loginLabel = new System.Windows.Forms.TextBox();
             this.applicationLogo = new System.Windows.Forms.PictureBox();
             this.emailUsernameLabel = new System.Windows.Forms.Label();
             this.passwordLabel = new System.Windows.Forms.Label();
             this.forgotPasswordLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.emailUsernameTxtbox = new System.Windows.Forms.TextBox();
+            this.loginBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(785, 564);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // loginLabel
             // 
@@ -108,12 +102,39 @@
             this.forgotPasswordLabel.TabIndex = 15;
             this.forgotPasswordLabel.Text = "Forgot your password?";
             // 
+            // loginBtn
+            // 
+            this.loginBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
+            this.loginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.loginBtn.FlatAppearance.BorderSize = 0;
+            this.loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.loginBtn.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.loginBtn.ForeColor = System.Drawing.Color.White;
+            this.loginBtn.Location = new System.Drawing.Point(440, 337);
+            this.loginBtn.Name = "loginBtn";
+            this.loginBtn.Size = new System.Drawing.Size(288, 37);
+            this.loginBtn.TabIndex = 18;
+            this.loginBtn.Text = "Login";
+            this.loginBtn.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(785, 564);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.loginBtn);
+            this.Controls.Add(this.emailUsernameTxtbox);
             this.Controls.Add(this.forgotPasswordLabel);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.emailUsernameLabel);
@@ -124,20 +145,21 @@
             this.MaximizeBox = false;
             this.Name = "Login";
             this.Text = "Login";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox loginLabel;
         private System.Windows.Forms.PictureBox applicationLogo;
         private System.Windows.Forms.Label emailUsernameLabel;
         private System.Windows.Forms.Label passwordLabel;
         private System.Windows.Forms.Label forgotPasswordLabel;
+        private System.Windows.Forms.TextBox emailUsernameTxtbox;
+        private System.Windows.Forms.Button loginBtn;
+        private PictureBox pictureBox1;
     }
 }
