@@ -102,6 +102,15 @@ namespace Book_Nook
             this.forgotPasswordLabel.TabIndex = 15;
             this.forgotPasswordLabel.Text = "Forgot your password?";
             // 
+            // emailUsernameTxtbox
+            // 
+            this.emailUsernameTxtbox.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.emailUsernameTxtbox.Location = new System.Drawing.Point(440, 194);
+            this.emailUsernameTxtbox.Name = "emailUsernameTxtbox";
+            this.emailUsernameTxtbox.Size = new System.Drawing.Size(288, 20);
+            this.emailUsernameTxtbox.TabIndex = 17;
+            this.emailUsernameTxtbox.Text = "mudithatharuka@gmail.com";
+            // 
             // loginBtn
             // 
             this.loginBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(24)))), ((int)(((byte)(95)))));
