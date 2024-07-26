@@ -16,5 +16,20 @@ namespace Book_Nook
         {
             InitializeComponent();
         }
+
+        private void applicationName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void applicationName_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
