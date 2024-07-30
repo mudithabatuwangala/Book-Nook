@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace Book_Nook
 {
-    public partial class BNTextBox : UserControl
+    public partial class BNTextBox : TextBox
     {
         private int _cornerRadius = 10;
         private Color _borderColor = Color.Red;
@@ -22,7 +22,8 @@ namespace Book_Nook
         private int _padding = 5;
         public BNTextBox()
         {
-            InitializeComponent();
+            this.BorderStyle = BorderStyle.None;
+            //InitializeComponent();
         }
 
         public int CornerRadius
