@@ -31,5 +31,10 @@ namespace Book_Nook
         {
 
         }
+
+        private void bnTextBox1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

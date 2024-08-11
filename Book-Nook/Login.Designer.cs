@@ -41,6 +41,7 @@ namespace Book_Nook
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.signupLabel = new System.Windows.Forms.Label();
             this.signupBtn = new System.Windows.Forms.Label();
+            this.bnTextBox1 = new Book_Nook.BNTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.applicationLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -161,12 +162,24 @@ namespace Book_Nook
             this.signupBtn.TabIndex = 20;
             this.signupBtn.Text = "Sign Up";
             // 
+            // bnTextBox1
+            // 
+            this.bnTextBox1.BorderColor = System.Drawing.Color.Red;
+            this.bnTextBox1.CornerRadius = 10;
+            this.bnTextBox1.Location = new System.Drawing.Point(499, 452);
+            this.bnTextBox1.Name = "bnTextBox1";
+            this.bnTextBox1.PlaceholderColor = System.Drawing.Color.LightGray;
+            this.bnTextBox1.PlaceholderText = "";
+            this.bnTextBox1.Size = new System.Drawing.Size(100, 20);
+            this.bnTextBox1.TabIndex = 21;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(239)))), ((int)(((byte)(232)))));
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.bnTextBox1);
             this.Controls.Add(this.signupBtn);
             this.Controls.Add(this.signupLabel);
             this.Controls.Add(this.loginBtn);
@@ -199,5 +212,6 @@ namespace Book_Nook
         private PictureBox pictureBox1;
         private Label signupLabel;
         private Label signupBtn;
+        private BNTextBox bnTextBox1;
     }
 }
